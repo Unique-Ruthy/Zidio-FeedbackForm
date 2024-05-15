@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.feedbackContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  transform: translate(0, 5%);
+  /* background-color: violet; */
+  height: 694px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(81, 183, 255, 1),
+    rgba(221, 221, 221, 1)
+  );
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.heading {
+  padding: 20px 0 0 0;
+  font-size: 2rem;
+  color: #555555;
+}
+
+.feedbackContain {
+  background-color: white;
+  height: 535px;
+  width: 400px;
+  margin: -10px auto;
+  padding: 30px 25px 30px 25px;
+  border-radius: 12px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding-left: 30px; /* Ensure space for icons */
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* You can add additional styling as needed */
